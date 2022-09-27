@@ -46,6 +46,6 @@ int word::testReference(int &data) {
 }
 
 int word::testPointer(int *data) {
-    *data += 100;
+    *data += 200;
     return 500;
 }

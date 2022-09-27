@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/test_swig/cmake-build-debug/
+cmake_ninja_workdir = D$:/CLionProjects/test_swig/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target test_swig
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/Administrator/CLionProjects/test_swig/cmake-buil
 
 build cmake_object_order_depends_target_test_swig: phony || CMakeFiles/test_swig.dir
 
-build CMakeFiles/test_swig.dir/main.cpp.obj: CXX_COMPILER__test_swig_Debug C$:/Users/Administrator/CLionProjects/test_swig/main.cpp || cmake_object_order_depends_target_test_swig
+build CMakeFiles/test_swig.dir/main.cpp.obj: CXX_COMPILER__test_swig_Debug D$:/CLionProjects/test_swig/main.cpp || cmake_object_order_depends_target_test_swig
   DEP_FILE = CMakeFiles\test_swig.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\test_swig.dir
@@ -81,7 +81,7 @@ build test_swig.exe: CXX_EXECUTABLE_LINKER__test_swig_Debug CMakeFiles/test_swig
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\CLionProjects\test_swig\cmake-build-debug && "D:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\test_swig\cmake-build-debug && "D:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\CLionProjects\test_swig\cmake-build-debug && "D:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Administrator\CLionProjects\test_swig -BC:\Users\Administrator\CLionProjects\test_swig\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\CLionProjects\test_swig\cmake-build-debug && "D:\software\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\CLionProjects\test_swig -BD:\CLionProjects\test_swig\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build test_swig: phony test_swig.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Administrator/CLionProjects/test_swig/cmake-build-debug
+# Folder: D:/CLionProjects/test_swig/cmake-build-debug
 
 build all: phony test_swig.exe
 
